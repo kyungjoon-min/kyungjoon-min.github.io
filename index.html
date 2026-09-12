@@ -1,1 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyungjoon Min | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        nav {
+            background-color: #1f2937;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            list-style: none;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
+        header {
+            background-color: #2563eb;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            font-size: 22px;
+            font-weight: normal;
+        }
+
+        header p {
+            margin-top: 10px;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        section h2 {
+            color: #2563eb;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 30px;
+        }
+
+        #about p {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .skill {
+            background-color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .project-card {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .project-card h3 {
+            margin-bottom: 10px;
+        }
+
+        #resume,
+        #contact {
+            text-align: center;
+        }
+
+        #contact p {
+            margin: 10px;
+        }
+
+        #contact a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 700px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .projects-container {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Kyungjoon Min</h1>
+        <h2>Finance Student | University of Utah</h2>
+        <p>Finance • Data Analytics • AI • Business Intelligence</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am a Finance student at the University of Utah with an interest
+            in financial analysis, data analytics, artificial intelligence,
+            and information systems. I enjoy using technology to understand
+            business data and support better decision-making. Through my
+            coursework, I am developing experience with tools such as Excel,
+            Tableau, GitHub, and AI. I am especially interested in learning
+            how data visualization and AI-assisted analysis can be applied
+            to finance and business. My goal is to continue developing both
+            my financial and technical skills and eventually work as a
+            finance professional who can effectively use data and technology
+            to solve business problems.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill">Microsoft Excel</div>
+            <div class="skill">Tableau</div>
+            <div class="skill">Data Analytics</div>
+            <div class="skill">Financial Analysis</div>
+            <div class="skill">Business Intelligence</div>
+            <div class="skill">Data Visualization</div>
+            <div class="skill">AI Prompt Engineering</div>
+            <div class="skill">GitHub</div>
+            <div class="skill">HTML</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Super Bowl Social Media Analytics</h3>
+                <p>
+                    Analyzed Doritos and Pringles social media performance
+                    using Excel, descriptive statistics, and regression analysis.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Data Visualization</h3>
+                <p>
+                    Created business data visualizations to identify trends
+                    and communicate useful insights.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>AI Business Analysis</h3>
+                <p>
+                    Used AI tools to interpret business data and support
+                    evidence-based decision-making.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>KPMG Group Project</h3>
+                <p>
+                    Collaborating on an information systems project focused
+                    on data, technology, and business process improvement.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Resume coming soon.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:u1499481@umail.utah.edu">
+                u1499481@umail.utah.edu
+            </a>
+        </p>
+
+        <p>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/min-kyungjoon/"
+               target="_blank">
+                linkedin.com/in/min-kyungjoon
+            </a>
+        </p>
+
+        <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/kyungjoon-min"
+               target="_blank">
+                github.com/kyungjoon-min
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Kyungjoon Min | Professional Portfolio</p>
+    </footer>
+
+</body>
+</html>
